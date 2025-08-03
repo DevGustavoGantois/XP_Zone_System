@@ -16,7 +16,9 @@ export function NavbarMobile() {
                     </SheetTrigger>
                     <SheetContent side="top" className="bg-[#12042B] border-1 border-white/30">
                         <SheetHeader>
-                            <SheetTitle className="text-3xl mt-10 text-center text-transparent bg-clip-text bg-gradient-to-r font-bold from-[#FF9A51] to-[#E44963]">XP Zone</SheetTitle>
+                            <SheetTitle className="text-3xl mt-10 text-center text-transparent bg-clip-text bg-gradient-to-r font-bold from-[#FF9A51] to-[#E44963]">
+                                <span>XP Zone</span>
+                            </SheetTitle>
                             <SheetDescription className="text-center text-sm font-light text-white/70">
                                 Clique nos botões abaixo para entrar na plataforma
                             </SheetDescription>
