@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function AboutHome() {
   return (
-    <section className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 mt-[69px]">
+    <section className="max-w-[1440px] mx-auto px-4 lg:px-8 py-8 mt-[500px]">
       <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-between">
         <figure className="w-full max-w-[500px] lg:max-w-[600px]">
           <Image
@@ -34,9 +34,9 @@ export function AboutHome() {
                     size={24}
                     className="text-[#FF9A51]"
                   />
-                  <span className="text-base lg:text-xl text-white/70 font-light">
+                  <li className="text-base lg:text-xl list-none text-white/70 font-light">
                     {item.feature}
-                  </span>
+                  </li>
                 </div>
               ))}
             </div>
